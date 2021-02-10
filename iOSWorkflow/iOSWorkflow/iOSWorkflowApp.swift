@@ -11,7 +11,7 @@ import SwiftUI
 struct iOSWorkflowApp: App {
     var body: some Scene {
         WindowGroup {
-            ModuleRootView()
+            ModuleRootView(rootData: RootData())
         }
     }
 }

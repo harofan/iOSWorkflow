@@ -3,17 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B727D9725D3950A0073172E /* PodfileLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B727D9625D3950A0073172E /* PodfileLock.swift */; };
+		3B727D9A25D395400073172E /* Pod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B727D9925D395400073172E /* Pod.swift */; };
+		3B727D9D25D395940073172E /* SpecRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B727D9C25D395940073172E /* SpecRepo.swift */; };
+		3B727DA125D3A2AB0073172E /* ModuleRowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B727DA025D3A2AB0073172E /* ModuleRowModel.swift */; };
+		3B727DA825D3A3FE0073172E /* ModuleOperationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B727DA725D3A3FE0073172E /* ModuleOperationView.swift */; };
+		3B727DAB25D3A5850073172E /* ModuleOperationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B727DAA25D3A5850073172E /* ModuleOperationRowView.swift */; };
 		3B7D61CD25D29E3E00E8F4A7 /* iOSWorkflowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7D61CC25D29E3E00E8F4A7 /* iOSWorkflowApp.swift */; };
 		3B7D61D125D29E3F00E8F4A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7D61D025D29E3F00E8F4A7 /* Assets.xcassets */; };
 		3B7D61D425D29E3F00E8F4A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7D61D325D29E3F00E8F4A7 /* Preview Assets.xcassets */; };
 		3B7D61E225D29FEC00E8F4A7 /* ModuleRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7D61E125D29FEC00E8F4A7 /* ModuleRootView.swift */; };
+		3B7D61EA25D2A2E900E8F4A7 /* DropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7D61E925D2A2E900E8F4A7 /* DropView.swift */; };
+		3B7D61ED25D2A83600E8F4A7 /* LockFileParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7D61EC25D2A83600E8F4A7 /* LockFileParser.swift */; };
+		3B7D61F025D2AC1B00E8F4A7 /* RootData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7D61EF25D2AC1B00E8F4A7 /* RootData.swift */; };
+		3B7D61F525D2B53D00E8F4A7 /* BookmarkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7D61F425D2B53D00E8F4A7 /* BookmarkTool.swift */; };
+		53CFCC7316D1B35E1B38BD82 /* Pods_iOSWorkflow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8327B3640FF47BCA0093939A /* Pods_iOSWorkflow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B727D9625D3950A0073172E /* PodfileLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodfileLock.swift; sourceTree = "<group>"; };
+		3B727D9925D395400073172E /* Pod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pod.swift; sourceTree = "<group>"; };
+		3B727D9C25D395940073172E /* SpecRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecRepo.swift; sourceTree = "<group>"; };
+		3B727DA025D3A2AB0073172E /* ModuleRowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleRowModel.swift; sourceTree = "<group>"; };
+		3B727DA725D3A3FE0073172E /* ModuleOperationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleOperationView.swift; sourceTree = "<group>"; };
+		3B727DAA25D3A5850073172E /* ModuleOperationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleOperationRowView.swift; sourceTree = "<group>"; };
 		3B7D61C925D29E3E00E8F4A7 /* iOSWorkflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSWorkflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B7D61CC25D29E3E00E8F4A7 /* iOSWorkflowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSWorkflowApp.swift; sourceTree = "<group>"; };
 		3B7D61D025D29E3F00E8F4A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -21,6 +38,13 @@
 		3B7D61D525D29E3F00E8F4A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B7D61D625D29E3F00E8F4A7 /* iOSWorkflow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOSWorkflow.entitlements; sourceTree = "<group>"; };
 		3B7D61E125D29FEC00E8F4A7 /* ModuleRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleRootView.swift; sourceTree = "<group>"; };
+		3B7D61E925D2A2E900E8F4A7 /* DropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropView.swift; sourceTree = "<group>"; };
+		3B7D61EC25D2A83600E8F4A7 /* LockFileParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockFileParser.swift; sourceTree = "<group>"; };
+		3B7D61EF25D2AC1B00E8F4A7 /* RootData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootData.swift; sourceTree = "<group>"; };
+		3B7D61F425D2B53D00E8F4A7 /* BookmarkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkTool.swift; sourceTree = "<group>"; };
+		6B4A8318EA9F59918E267F31 /* Pods-iOSWorkflow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSWorkflow.debug.xcconfig"; path = "Target Support Files/Pods-iOSWorkflow/Pods-iOSWorkflow.debug.xcconfig"; sourceTree = "<group>"; };
+		8327B3640FF47BCA0093939A /* Pods_iOSWorkflow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSWorkflow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8556004D869C0B0929906F /* Pods-iOSWorkflow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSWorkflow.release.xcconfig"; path = "Target Support Files/Pods-iOSWorkflow/Pods-iOSWorkflow.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53CFCC7316D1B35E1B38BD82 /* Pods_iOSWorkflow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +64,8 @@
 			children = (
 				3B7D61CB25D29E3E00E8F4A7 /* iOSWorkflow */,
 				3B7D61CA25D29E3E00E8F4A7 /* Products */,
+				A878EF8299FD43ADB12C4869 /* Pods */,
+				D7616ECDACDE26FC0B1D262C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +103,11 @@
 		3B7D61DE25D29FD100E8F4A7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3B727DA025D3A2AB0073172E /* ModuleRowModel.swift */,
+				3B7D61EF25D2AC1B00E8F4A7 /* RootData.swift */,
+				3B727D9625D3950A0073172E /* PodfileLock.swift */,
+				3B727D9925D395400073172E /* Pod.swift */,
+				3B727D9C25D395940073172E /* SpecRepo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -83,6 +115,8 @@
 		3B7D61DF25D29FD100E8F4A7 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				3B7D61EC25D2A83600E8F4A7 /* LockFileParser.swift */,
+				3B7D61F425D2B53D00E8F4A7 /* BookmarkTool.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -91,8 +125,28 @@
 			isa = PBXGroup;
 			children = (
 				3B7D61E125D29FEC00E8F4A7 /* ModuleRootView.swift */,
+				3B7D61E925D2A2E900E8F4A7 /* DropView.swift */,
+				3B727DA725D3A3FE0073172E /* ModuleOperationView.swift */,
+				3B727DAA25D3A5850073172E /* ModuleOperationRowView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A878EF8299FD43ADB12C4869 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B4A8318EA9F59918E267F31 /* Pods-iOSWorkflow.debug.xcconfig */,
+				8F8556004D869C0B0929906F /* Pods-iOSWorkflow.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7616ECDACDE26FC0B1D262C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8327B3640FF47BCA0093939A /* Pods_iOSWorkflow.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B7D61D925D29E3F00E8F4A7 /* Build configuration list for PBXNativeTarget "iOSWorkflow" */;
 			buildPhases = (
+				B3EDD35636A0EDCAD59BA9E5 /* [CP] Check Pods Manifest.lock */,
 				3B7D61C525D29E3E00E8F4A7 /* Sources */,
 				3B7D61C625D29E3E00E8F4A7 /* Frameworks */,
 				3B7D61C725D29E3E00E8F4A7 /* Resources */,
+				024D8B1BD8FD2E30BC445AF5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,13 +215,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		024D8B1BD8FD2E30BC445AF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSWorkflow/Pods-iOSWorkflow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSWorkflow/Pods-iOSWorkflow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSWorkflow/Pods-iOSWorkflow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3EDD35636A0EDCAD59BA9E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSWorkflow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B7D61C525D29E3E00E8F4A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B727DA125D3A2AB0073172E /* ModuleRowModel.swift in Sources */,
+				3B727D9725D3950A0073172E /* PodfileLock.swift in Sources */,
+				3B727DA825D3A3FE0073172E /* ModuleOperationView.swift in Sources */,
 				3B7D61E225D29FEC00E8F4A7 /* ModuleRootView.swift in Sources */,
+				3B7D61F025D2AC1B00E8F4A7 /* RootData.swift in Sources */,
+				3B727D9A25D395400073172E /* Pod.swift in Sources */,
+				3B7D61EA25D2A2E900E8F4A7 /* DropView.swift in Sources */,
+				3B7D61ED25D2A83600E8F4A7 /* LockFileParser.swift in Sources */,
+				3B727DAB25D3A5850073172E /* ModuleOperationRowView.swift in Sources */,
 				3B7D61CD25D29E3E00E8F4A7 /* iOSWorkflowApp.swift in Sources */,
+				3B727D9D25D395940073172E /* SpecRepo.swift in Sources */,
+				3B7D61F525D2B53D00E8F4A7 /* BookmarkTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +397,7 @@
 		};
 		3B7D61DA25D29E3F00E8F4A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B4A8318EA9F59918E267F31 /* Pods-iOSWorkflow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -313,6 +422,7 @@
 		};
 		3B7D61DB25D29E3F00E8F4A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F8556004D869C0B0929906F /* Pods-iOSWorkflow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

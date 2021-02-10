@@ -8,13 +8,19 @@
 import SwiftUI
 
 struct ModuleRootView: View {
+    @StateObject var rootData: RootData
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct ModuleRootView_Previews: PreviewProvider {
-    static var previews: some View {
-        ModuleRootView()
+        ZStack {
+            HStack {
+                DropView(rootData: rootData)
+                if rootData.rowModels != nil {
+                    Divider()
+                    ModuleOperationView(rootData: rootData)
+                        .frame(minWidth: 300, minHeight: 300)
+                        .background(Color.red)
+                }
+            }
+        }
+        .frame(minHeight: 300, maxHeight: .infinity)
     }
 }
