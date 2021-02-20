@@ -16,8 +16,8 @@ struct ModuleRootView: View {
                 if rootData.rowModels != nil {
                     Divider()
                     ModuleOperationView(rootData: rootData)
-                        .frame(minWidth: 300, minHeight: 300)
-                        .background(Color.red)
+                        .frame(minWidth: 900, minHeight: 900)
+//                        .background(Color.red)
                 }
             }
         }

@@ -16,4 +16,7 @@ class ModuleRowModel: Identifiable {
     var name: String {
         pod.name
     }
+    var version: String {
+        pod.info?.version ?? ""
+    }
 }
