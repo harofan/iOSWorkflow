@@ -16,7 +16,7 @@ struct ModuleOperationView: View {
                 ScrollView {
                     LazyVGrid(
                         columns: [GridItem(.fixed(reader.size.width))],
-                        alignment: .center,
+                        alignment: .leading,
                         spacing: nil,
                         pinnedViews: [],
                         content: { makeItem() }
@@ -24,8 +24,8 @@ struct ModuleOperationView: View {
                 }
             }
         }
-        .frame(minWidth: 550, alignment: .center)
-        .padding(5)
+//        .frame(minWidth: 550, alignment: .center)
+//        .padding(5)
     }
     
     /// 创建Cell
@@ -34,6 +34,8 @@ struct ModuleOperationView: View {
     private func makeItem() -> some View {
         ForEach(rootData.rowModels ?? []) { rowData in
             ModuleOperationRowView(rowData: rowData)
+                .frame(minHeight: 48)
+            Divider()
         }
     }
 }
